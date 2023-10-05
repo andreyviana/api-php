@@ -14,7 +14,7 @@
 ``curl -i -X PUT -H "Authorization: Bearer 651339e9b586a" localhost/api/usuarios/atualizar/(id) -d '{"login": "(valor)","senha": "(valor)"}'``
 
 ## MÉTODO DELETE
-``curl -i -X PUT -H "Authorization: Bearer 651339e9b586a" localhost/api/usuarios/atualizar/(id) -d '{"login": "(valor)","senha": "(valor)"}'``
+``curl -i -X DELETE -H "Authorization: Bearer 651339e9b586a" localhost/api/usuarios/atualizar/(id)``
 
 nota: substitua os valores entre parentêses "()" para um valor sem parênteses. Também é possível substituír o link padrãoo "localhost/" se não estiver usando o xampp.
 
